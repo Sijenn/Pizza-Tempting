@@ -35,6 +35,16 @@ function purchaseClicked() {
     }
     updateCartTotal()
 }
+function deliveryClicked() {
+    alert('Delivery fee across the country is 300/=')
+    prompt('Please enter your location')
+    alert('Your pizza-tempting will be delivered to you in 45mins')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal()
+}
 
 function removeCartItem(event) {
     var buttonClicked = event.target
