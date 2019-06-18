@@ -294,9 +294,9 @@ html, body {
     font-weight: bold;
 }
 
-.btn-danger:hover {
+/* .btn-danger:hover {
     background-color: #CC4C4C;
-}
+} */
 
 .cart-quantity-input {
     height: 34px;
@@ -319,11 +319,11 @@ html, body {
     border: none;
 }
 
-/* .cart-total {
+.cart-total {
     text-align: end;
     margin-top: 10px;
     margin-right: 10px;
-} */
+}
 
 .cart-total-title {
     font-weight: bold;
