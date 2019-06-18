@@ -124,12 +124,12 @@ html, body {
     height: 30px;
 }
 
-.btn {
+/* .btn {
     text-align: center;
     vertical-align: middle;
     padding: .67em .67em;
     cursor: pointer;
-}
+} */
 
 .btn-header {
     margin: .5em 15% 2em 15%;
@@ -294,9 +294,9 @@ html, body {
     font-weight: bold;
 }
 
-/* .btn-danger:hover {
+.btn-danger:hover {
     background-color: #CC4C4C;
-} */
+}
 
 .cart-quantity-input {
     height: 34px;
